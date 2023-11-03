@@ -57,5 +57,6 @@ services:
       - ./src:/var/www/html
 
 #networks:
+  #compose always sets up a network by default. Useful if you want to change the driver
 #volumes:
 
